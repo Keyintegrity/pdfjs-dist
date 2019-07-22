@@ -1,6 +1,6 @@
 {
-  "name": "pdfjs-dist",
-  "version": "2.1.266",
+  "name": "@keyintegrity/pdfjs-dist",
+  "version": "2.1.266-alpha.2",
   "main": "build/pdf.js",
   "description": "Generic build of Mozilla's PDF.js library.",
   "keywords": [
@@ -12,6 +12,7 @@
   "bugs": "https://github.com/mozilla/pdf.js/issues",
   "license": "Apache-2.0",
   "dependencies": {
+    "core-js": "^2.6.9",
     "node-ensure": "^0.0.0",
     "worker-loader": "^2.0.0"
   },
